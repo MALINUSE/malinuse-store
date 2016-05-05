@@ -1,12 +1,8 @@
-
-
-
 set :application, 'SOUGOU_STAGING'
 
 server 'malinuse-server2', user: 'imidsac', roles: %w{app db web}, :primary => true
 
-
-set :branch, "sougou-dev"
+set :branch, "sougou_dev"
 set :rails_env, "staging"
 set :deploy_to, "/var/www/sougou/staging"
 
